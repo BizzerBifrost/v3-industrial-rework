@@ -1,15 +1,127 @@
-pmg_transportation_factory_light = {
+pmg_transportation_building_food_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_road_carts
-		pm_rail_transport_factory_light
+		pm_no_rail_transport_factory
+		pm_rail_transport_food_industry
 	}
 }
 
-pmg_transportation_factory_heavy = {
+pmg_transportation_building_textile_mill = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_road_carts
-		pm_rail_transport_factory_heavy
+		pm_no_rail_transport_factory
+		pm_rail_transport_textile_mill
+	}
+}
+
+pmg_transportation_building_furniture_manufactory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_furniture_manufactory
+	}
+}
+
+pmg_transportation_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_glassworks
+	}
+}
+
+pmg_transportation_building_tooling_workshop = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_tooling_workshop
+	}
+}
+
+pmg_transportation_building_paper_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_paper_mill
+	}
+}
+
+pmg_transportation_building_chemical_plant = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_chemical_plant
+	}
+}
+
+pmg_transportation_building_explosives_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_explosives_factory
+	}
+}
+
+pmg_transportation_building_synthetics_plant = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_synthetics_plant
+	}
+}
+
+pmg_transportation_building_steel_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_steel_mill
+	}
+}
+
+pmg_transportation_building_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_motor_industry
+	}
+}
+
+pmg_transportation_building_automotive_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_automotive_industry
+	}
+}
+
+pmg_transportation_building_electrics_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_electrics_industry
+	}
+}
+
+pmg_transportation_building_arms_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_arms_industry
+	}
+}
+
+pmg_transportation_building_artillery_foundry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_artillery_foundry
+	}
+}
+
+pmg_transportation_building_munition_plant = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_rail_transport_factory
+		pm_rail_transport_munition_plant
 	}
 }
