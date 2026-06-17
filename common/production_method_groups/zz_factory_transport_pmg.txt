@@ -1,0 +1,15 @@
+pmg_transportation_factory_light = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_factory_light
+	}
+}
+
+pmg_transportation_factory_heavy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_factory_heavy
+	}
+}

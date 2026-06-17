@@ -1,0 +1,33 @@
+pm_rail_transport_factory_light = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.10
+		}
+		workforce_scaled = {
+			goods_input_transportation_add = 3
+		}
+	}
+}
+
+pm_rail_transport_factory_heavy = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.10
+		}
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+	}
+}
