@@ -17,7 +17,7 @@ building_food_industry = {
 		pmg_canning
 		pmg_distillery
 		pmg_automation_building_food_industry
-		pmg_transportation_factory_light
+		pmg_transportation_building_food_industry
 	}
 
 	required_construction = construction_cost_high
@@ -43,7 +43,7 @@ building_textile_mill = {
 		pmg_base_building_textile_mill
 		pmg_luxury_building_textile_mill
 		pmg_automation_building_textile_mill
-		pmg_transportation_factory_light
+		pmg_transportation_building_textile_mill
 	}
 
 	required_construction = construction_cost_high
@@ -69,7 +69,7 @@ building_furniture_manufactory = {
 		pmg_base_building_furniture_manufactory
 		pmg_luxury_building_furniture_manufactory
 		pmg_automation_building_furniture_manufactory
-		pmg_transportation_factory_light
+		pmg_transportation_building_furniture_manufactory
 	}
 
 	required_construction = construction_cost_high
@@ -92,7 +92,7 @@ building_glassworks = {
 		pmg_base_building_glassworks
 		pmg_luxury_building_glassworks
 		pmg_glassblowing
-		pmg_transportation_factory_light
+		pmg_transportation_building_glassworks
 	}
 
 	required_construction = construction_cost_high
@@ -118,7 +118,7 @@ building_tooling_workshop = {
 	production_method_groups = {
 		pmg_base_building_tooling_workshop
 		pmg_automation_building_tooling_workshop
-		pmg_transportation_factory_light
+		pmg_transportation_building_tooling_workshop
 	}
 
 	required_construction = construction_cost_high
@@ -146,7 +146,7 @@ building_paper_mill = {
 	production_method_groups = {
 		pmg_base_building_paper_mill
 		pmg_automation_building_paper_mill
-		pmg_transportation_factory_light
+		pmg_transportation_building_paper_mill
 	}
 
 	required_construction = construction_cost_high
@@ -169,7 +169,7 @@ building_chemical_plant = {
 
 	production_method_groups = {
 		pmg_fertilizer_production
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_chemical_plant
 	}
 
 	required_construction = construction_cost_very_high
@@ -203,7 +203,7 @@ building_explosives_factory = {
 
 	production_method_groups = {
 		pmg_explosives_building_chemical_plant
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_explosives_factory
 	}
 
 	required_construction = construction_cost_very_high
@@ -237,7 +237,7 @@ building_synthetics_plant = {
 	production_method_groups = {
 		pmg_synthetic_dyes
 		pmg_synthetic_silk
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_synthetics_plant
 	}
 
 	required_construction = construction_cost_very_high
@@ -273,7 +273,7 @@ building_steel_mill = {
 	production_method_groups = {
 		pmg_steelmaking_process
 		pmg_automation_building_steel_mill
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_steel_mill
 	}
 
 	required_construction = construction_cost_very_high
@@ -306,7 +306,7 @@ building_motor_industry = {
 	production_method_groups = {
 		pmg_base_building_motor_industry
 		pmg_automation_building_motor_industry
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_motor_industry
 	}
 
 	required_construction = construction_cost_very_high
@@ -368,7 +368,7 @@ building_automotive_industry = {
 		pmg_aeroplanes
 		pmg_tanks
 		pmg_automation_building_automotive_industry
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_automotive_industry
 	}
 
 	required_construction = construction_cost_very_high
@@ -401,7 +401,7 @@ building_electrics_industry = {
 	production_method_groups = {
 		pmg_telephones_category
 		pmg_radios_category
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_electrics_industry
 	}
 
 	required_construction = construction_cost_very_high
@@ -437,7 +437,7 @@ building_arms_industry = {
 	production_method_groups = {
 		pmg_firearms_manufacturing
 		pmg_automation_building_arms_industry
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_arms_industry
 	}
 
 	required_construction = construction_cost_high
@@ -461,7 +461,7 @@ building_artillery_foundry = {
 	production_method_groups = {
 		pmg_foundries
 		pmg_automation_building_arms_industry
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_artillery_foundry
 	}
 
 	required_construction = construction_cost_high
@@ -486,7 +486,7 @@ building_munition_plant = {
 	production_method_groups = {
 		pmg_base_building_munition_plant
 		pmg_automation_building_munition_plant
-		pmg_transportation_factory_heavy
+		pmg_transportation_building_munition_plant
 	}
 
 	required_construction = construction_cost_very_high

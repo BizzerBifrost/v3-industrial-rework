@@ -1,4 +1,8 @@
-pm_rail_transport_factory_light = {
+pm_no_rail_transport_factory = {
+	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
+}
+
+pm_rail_transport_food_industry = {
 	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
 
 	unlocking_technologies = {
@@ -6,16 +10,14 @@ pm_rail_transport_factory_light = {
 	}
 
 	building_modifiers = {
-		unscaled = {
-			building_throughput_add = 0.10
-		}
 		workforce_scaled = {
-			goods_input_transportation_add = 3
+			goods_input_transportation_add = 5
+			goods_output_groceries_add = 9
 		}
 	}
 }
 
-pm_rail_transport_factory_heavy = {
+pm_rail_transport_textile_mill = {
 	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
 
 	unlocking_technologies = {
@@ -23,11 +25,219 @@ pm_rail_transport_factory_heavy = {
 	}
 
 	building_modifiers = {
-		unscaled = {
-			building_throughput_add = 0.10
-		}
 		workforce_scaled = {
 			goods_input_transportation_add = 5
+			goods_output_clothes_add = 9
+		}
+	}
+}
+
+pm_rail_transport_furniture_manufactory = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+			goods_output_furniture_add = 9
+		}
+	}
+}
+
+pm_rail_transport_glassworks = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+			goods_output_glass_add = 6
+		}
+	}
+}
+
+pm_rail_transport_tooling_workshop = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+			goods_output_tools_add = 6
+		}
+	}
+}
+
+pm_rail_transport_paper_mill = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+			goods_output_paper_add = 8
+		}
+	}
+}
+
+pm_rail_transport_chemical_plant = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_fertilizer_add = 14
+		}
+	}
+}
+
+pm_rail_transport_explosives_factory = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_explosives_add = 8
+		}
+	}
+}
+
+pm_rail_transport_synthetics_plant = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_dye_add = 12
+		}
+	}
+}
+
+pm_rail_transport_steel_mill = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_steel_add = 10
+		}
+	}
+}
+
+pm_rail_transport_motor_industry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_engines_add = 6
+		}
+	}
+}
+
+pm_rail_transport_automotive_industry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_automobiles_add = 5
+		}
+	}
+}
+
+pm_rail_transport_electrics_industry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_telephones_add = 9
+		}
+	}
+}
+
+pm_rail_transport_arms_industry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 6
+			goods_output_small_arms_add = 5
+		}
+	}
+}
+
+pm_rail_transport_artillery_foundry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 6
+			goods_output_artillery_add = 4
+		}
+	}
+}
+
+pm_rail_transport_munition_plant = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 6
+			goods_output_ammunition_add = 8
 		}
 	}
 }
