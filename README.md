@@ -1,5 +1,5 @@
 # Rail Freight — Factory Transport for Industry
-### A Victoria 3 Mod | v1.1.0 | Compatible with 1.13.x (Matcha)
+### A Victoria 3 Mod | v1.1.1 | Compatible with 1.13.x (Matcha)
 
 ---
 
