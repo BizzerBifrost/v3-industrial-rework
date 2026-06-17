@@ -1,0 +1,9 @@
+﻿l_english:
+ pmg_transportation_factory_light: "Transportation"
+ pmg_transportation_factory_light_desc: "Determines how goods are transported to and from this factory. Rail transportation increases production efficiency but requires a steady supply of transportation from nearby Railways."
+ pmg_transportation_factory_heavy: "Transportation"
+ pmg_transportation_factory_heavy_desc: "Determines how goods are transported to and from this factory. Rail transportation increases production efficiency but requires a steady supply of transportation from nearby Railways."
+ pm_rail_transport_factory_light: "Rail Transportation"
+ pm_rail_transport_factory_light_desc: "Goods are transported via rail, boosting factory throughput by 10%. Requires Railway buildings in the state to supply transportation."
+ pm_rail_transport_factory_heavy: "Rail Transportation"
+ pm_rail_transport_factory_heavy_desc: "Goods are transported via rail, boosting factory throughput by 10%. Requires Railway buildings in the state to supply transportation."
